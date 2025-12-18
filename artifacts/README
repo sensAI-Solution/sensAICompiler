@@ -1,0 +1,22 @@
+sensAI SDK 8.0
+•	Windows Installer:   8.0.0.1.0_ml_x64.exe
+•	Linux Installer:   8.0.0.1.0_ml_x64_lin.run
+•	Checksum:   8.0.0.1.0_ml_x64_lin.md5
+
+What is new in 8.0 ?
+•	Support for Unified Architecture of Advanced CNN IP
+•	Added support for Resize Bilinear and Nearest Neighbor layer in Advanced 32bit CNN IP
+•	Added support for Focus layer in Advanced 32bit CNN IP
+•	Added support for K-max pooling in Advanced 32bit CNN IP
+•	Added support for Split layer in Advanced 32bit CNN IP
+•	Added support of Learned Step Quantization (QLSQ) for Global Average Pooling in Optimized and Advanced 32bit CNN IP
+•	Added support of YoloV8 (modified for sensAI targets) for Advanced 32bit CNN IP
+•	Added support for Defect Detection using MobileNetV2 (modified for sensAI targets) for Advanced 32bit CNN IP
+•	Added support for HMI models (modified for sensAI targets) for Optimized CNN IP
+•	Added support for break CBSR feature to support ResNet v1 topologies (signed, unsigned activations) for Optimized and Advanced 32bit CNN IP
+•	Supports Lattice Quantization package (lscquant) version 1.7.2
+•	Added feature to disable VE ALU Engine for Elementwise Add layer execution in Advanced 32bit CNN IP
+•	Added support for LUT based SiLU activation function as an intermediate layer
+•	Added re-loadable LUT feature to support Sigmoid & SiLU layers in the same model
+•	Performance improvements using dual core feature for last convolution layer in Optimized CNN IP
+•	Bug fixes and enhancements
